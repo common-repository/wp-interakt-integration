@@ -1,0 +1,52 @@
+.test2 {
+    display: none;
+}
+a.toggle
+{box-shadow: none;
+    outline: 0;
+    text-decoration: none;
+	background:0 0 !important;font-size:0;
+}
+.testbody{
+    display:none;
+}
+.testbuttonbody{
+    display:none;
+}
+a.toggle::after,a.togglebody::after,a.togglefooter::after {
+    display: inline-block;
+    float: right;
+    color: #555d66;
+    border-radius: 50%;
+    right: 0;
+   /* content: "\f140";*/
+    border: none;
+    background: 0 0;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+	padding: 1px 2px 1px 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+a.toggle:after,a.togglebody:after,a.togglefooter:after{
+    content: "\f140";
+}
+a.toggle.special:after{
+    content: "\f142";
+}
+a.togglebody.special:after{	
+	content: "\f142";
+}
+a.togglefooter.special:after{	
+	content: "\f142";
+}

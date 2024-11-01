@@ -1,0 +1,213 @@
+input.interakt-subscribe-field{
+    display: block;
+    line-height: 34px;
+    height: 34px;
+    width: 100%;
+    padding: 0 10px;
+  }  
+.interakt-subscribe-button{
+  background-color: #09c;
+  color #fff ;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 34px;
+  padding: 0 15px;
+  opacity: 0.9;
+  text-align: center;
+  border-radius:4px;
+  letter-spacing:1px;
+}
+.interakt-subscribe-button:hover{
+  opacity: 0.8;
+    color #fff;
+}
+.interakt-subscribe-button:active{
+  opacity: 1;
+    color #fff;
+}
+.interakt-subscribe-text{
+  line-height: 1.4;
+}
+.interakt-subscribe-title{
+  color: #fff;
+}
+.interakt-subscribe-form.inline{
+  white-space: nowrap;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-field,
+.interakt-subscribe-form.inline .interakt-subscribe-button{
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-field{
+  width: 73%;
+  margin-left: -4px;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-button{
+  width: 26%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 0;
+    overflow-text: ellipsis;
+    text-align: center;
+    padding: 0px;border-radius:4px;    letter-spacing: 0.02em;
+}
+.interakt-subscribe-form input[type="email"]{
+  color:#000;
+}
+input#interakt-subscribe-name,input#interakt-subscribe-email,input#interakt-subscribe-phone{margin-bottom:10px}
+.alert{border:1px solid red !important}
+
+/**** 
+Contact Form Submit Button
+***/
+
+
+a#cf-submitted {
+    box-shadow: none;
+    border: 1px solid;
+    padding: 4px 20px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+/***
+Feedback and Chat buttons
+**/
+
+.interaktfeedbackclass{
+   cursor: pointer;
+}
+.interaktchatclass{
+   cursor: pointer;
+}
+/* Place Holder CSS */
+::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+::-moz-placeholder{
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-ms-input-placeholder{  
+  color: #000;
+  opacity: 0.5;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder .interakt-subscribe-form input, #interakt_contactform p input:hover::-webkit-input-placeholder {
+  opacity: 0.75;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-moz-placeholder .interakt-subscribe-form input, #interakt_contactform p input:hover:-moz-placeholder{
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.interakt-subscribe-form input:hover::-moz-placeholder, #interakt_contactform p input:hover::-moz-placeholder  {
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.interakt-subscribe-form input:hover:-ms-input-placeholder, #interakt_contactform p input:hover:-ms-input-placeholder {  
+  opacity: 0.75;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+ .interakt_contact_form input:focus::-webkit-input-placeholder, #interakt_contactform p input:focus::-webkit-input-placeholder{
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.interakt_contact_form input:focus:-moz-placeholder, #interakt_contactform p input:focus:-moz-placeholder{
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+ .interakt_contact_form input:focus::-moz-placeholder, #interakt_contactform p input:focus::-moz-placeholder{
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+ .interakt_contact_form input:focus:-ms-input-placeholder, #interakt_contactform p input:focus:-ms-input-placeholder{  
+  opacity: 0;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+/* text area css */
+
+ .interakt_contact_form textarea:focus::-webkit-input-placeholder, #interakt_contactform p input:focus::-webkit-input-placeholder{
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.interakt_contact_form textarea:focus:-moz-placeholder, #interakt_contactform p input:focus:-moz-placeholder{
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+ .interakt_contact_form textarea:focus::-moz-placeholder, #interakt_contactform p input:focus::-moz-placeholder{
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+ .interakt_contact_form textarea:focus:-ms-input-placeholder, #interakt_contactform p input:focus:-ms-input-placeholder{  
+  opacity: 0;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+a#subscribe-btn:hover, a#subscribe-btn:focus{text-decoration:none !important}
+
+a#cf-submitted:hover, a#cf-submitted:focus{text-decoration:none !important}
+.interakt_contact_form label.icf_label {
+    display: block;
+    /* width: 100%; */
+}
+.interakt_contact_form input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], textarea {
+  display: block;
+  width:100%;
+}
+.interakt_contact_form input[type="number"], input[type="tel"], input[type="date"],select {    display: block;
+  width:100%;
+  height:47.81px;
+}
+.interakt_contact_form .radio_button_options {
+    DISPLAY: block;
+    MARGIN-BOTTOM: 1em;
+}
+.interakt_contact_form textarea{
+    margin-top: 1em;
+}
+.interakt_contact_form h1, .interakt_contact_form h3{
+
+    margin-top: 0.8205em ;
+    margin-bottom: 0;
+}
+/* chat feed toggle*/ 
+ 
+.hideme{
+  display: :none !important;
+  opacity: :0 !important;
+  visibility: hidden !important;
+}
+ 

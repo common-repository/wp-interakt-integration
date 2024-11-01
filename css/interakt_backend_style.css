@@ -1,0 +1,635 @@
+.formheade_body {
+    display: none;
+}
+
+a.toggle
+{
+    box-shadow: none;
+    outline: 0;
+    text-decoration: none;
+    background:0 0 !important;font-size:0;
+    FLOAT: RIGHT;
+    DISPLAY: BLOCK;cursor:pointer;
+}
+a.togglebody{
+    box-shadow: none;
+    outline: 0;
+    text-decoration: none;
+    background:0 0 !important;font-size:0;
+    FLOAT: RIGHT;
+    DISPLAY: BLOCK;cursor:pointer;
+}
+a.togglefooter{
+    box-shadow: none;
+    outline: 0;
+    text-decoration: none;
+    background:0 0 !important;font-size:0;
+    FLOAT: RIGHT;
+    DISPLAY: BLOCK;cursor:pointer;
+}
+.formbody_body{
+    display:none;
+}
+.buttonbody_body{
+    display:none;
+}
+a.toggle::after,a.togglebody::after,a.togglefooter::after {
+    display: inline-block;
+    float: right;
+    color: #555d66;
+    border-radius: 50%;
+    right: 0;
+   /* content: "\f140";*/
+    border: none;
+    background: 0 0;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    padding: 1px 2px 1px 0;
+    margin-top: 15px;
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+a.toggle:after,a.togglebody:after,a.togglefooter:after{
+    content: "\f140";
+}
+a.toggle.special:after{
+    content: "\f142";
+}
+a.togglebody.special:after{ 
+    content: "\f142";
+}
+a.togglefooter.special:after{   
+    content: "\f142";
+}
+/* Sync user dialog box*/
+
+.modal {
+   background: #999 !important; */
+    display: inline-block;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    /* height: 65px; */
+    width: 405px;
+    z-index: 999999;
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    /* padding-top: 20px; */
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    background: #32373c;border-radius:10px;
+}
+.modal_close {
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    cursor: pointer;
+    color:white;
+    font-size: 18px;
+
+}
+.modal p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.modalbody{padding-bottom: 15px;
+    padding-top: 25px;
+    background: white;
+    color: black;
+    font-weight: 500;border-radius:0px 0px 10px 10px}
+td.form_options {
+   display: inline-block;
+    /* padding-left: 40%; */
+    text-align: left;
+    width: 100%;
+    position: relative;
+    left: 30%;
+    /* max-width: 100px; */
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}
+td.form_values {
+    position: relative;
+    left:10%;
+}
+/* Contact form backend fields css */
+
+.modalback_mask{
+    position: fixed;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1010;
+    overflow: hidden;
+    background-color: #000;
+    opacity: 0.5;
+    border: 0px none;
+    margin: 0px;
+    padding: 0px;
+}
+.message {
+       background: #3f91cb;
+    padding: 11px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.modal_close.close {
+      display: block;
+    position: static;
+    width: 20%;
+/*     background: #3f91cb; */
+    /* top: 15px; */
+    /* left: 38%; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    width: 100%;
+}
+a.closebtn {
+   background: #3f91cb;
+    border-radius: 5px;
+    /* width: 75px; */
+    color: white;
+    letter-spacing: 0.04em;
+    font-size: 13px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;cursor:pointer;
+    text-decoration: none;
+}
+ a.closebtn1 {
+   background: #3f91cb;
+    border-radius: 5px;
+    /* width: 75px; */
+    color: white;
+    letter-spacing: 0.04em;
+    font-size: 13px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+ /*   float: right;*/
+    text-transform: uppercase;
+    letter-spacing: 0.1em;cursor:pointer;
+}
+
+/* form generator Modal */
+
+table.modal_table_container {
+    width: 100% !important;
+    max-width: 405px !important;
+}
+
+table.modal_table_container textarea{
+    width: 100% !important;
+    max-width: 175px !important;
+    padding: 0px 0px !important;
+    float : none !important;
+    font-size: 14px !important;
+}
+td.form_create_btn {
+    padding-top: 20px;
+    position: relative;
+    padding-right: 12%;
+}
+td.form_required {
+    position: relative;
+    left:10%;    padding-bottom: 14px;
+}
+#interakt_form_title{ 
+    display: inline-block;
+    list-style: none;
+    /*border: 1px solid #aaa;*/
+    border-bottom: none;
+    padding: 10px;
+    margin: 0 4px -1px;
+    /*background-color: #f5f5f5;*/
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;}
+    
+#editor-button{  
+    /*background-color: #f5f5f5;*/
+    /*border: 1px solid #aaa;*/
+    /*border-top: none; */
+    /*padding: 16px;*/
+    margin-top: -7%;
+}
+.page_title{
+    /*border-bottom: 1px solid #aaa;*/
+    padding: 9px 15px 0 10px;
+    margin: 0;
+}   
+textarea#interakt_cf_editor_box {
+    width: 110%;
+}
+input[type="button"]{
+    cursor:pointer;
+}   
+input.cfi_mutual_settings {
+    color:#555;
+}
+input.cfi_mutual_settings:hover {
+    border: 1px solid black;
+    color: #000000 !important;
+}
+td.form_values2{
+POSITION: RELATIVE;
+RIGHT: 19%;
+}
+td.form_options2{   
+    POSITION: RELATIVE;
+    DISPLAY: BLOCK;
+    right:155%;
+    TOP: 14px;
+}
+td.form_values1{
+    width: 100px;
+    position: relative;
+    left: 10%;
+}
+td.form_options1{
+    display: block;
+    position: relative;
+    left: 112%;
+    top: -17px;
+}
+td.form_range {
+    display: inline-block;
+    /* padding-left: 40%; */
+    text-align: left;
+    width: 100%;
+    position: relative;
+    left: 30%;
+    /* max-width: 100px; */
+    font-size: 15px;
+    letter-spacing: 0.05em;top:12px;
+}
+td.form_valuesdate{
+    position: relative;
+    left: 13%;
+    top: 0;}
+td.form_optionsdate {
+    display: block;
+    position: relative;
+    left: 122%;
+    top: 5px;
+}
+td.form_valuesdate2{ 
+    position: relative;
+   right: 26%;
+    top: 6px;}
+td.form_optionsdate2 {
+     position: relative;
+    left: 5%;
+    top: 8px;
+}
+input.cfi_mutual_settings {
+    color: #555;
+    border: 1px solid transparent;
+} 
+.modal_title {
+    background: #3f91cb;
+    padding: 11px;
+    letter-spacing: 1px;
+    font-size: 17px;border-radius:10px 10px 0px 0px ;
+}
+
+/* chat and feedback widget controls */
+
+
+.chat_onoffswitch {
+    position: relative; width: 80px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.chat_onoffswitch-checkbox {
+    display: none;
+}
+.chat_onoffswitch-label {
+  display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    position: relative;
+    top: -17px;
+    left: -10px;
+}
+.chat_onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.chat_onoffswitch-inner:before, .chat_onoffswitch-inner:after {
+   display: block;
+    float: left;
+    width: 50%;
+    height: 26px;
+    padding: 0;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.chat_onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.chat_onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.chat_onoffswitch-switch {
+ display: block;
+    width: 11px;
+    margin: 6px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 48px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.chat_onoffswitch-checkbox:checked + .chat_onoffswitch-label .chat_onoffswitch-inner {
+    margin-left: 0;
+}
+.chat_onoffswitch-checkbox:checked + .chat_onoffswitch-label .chat_onoffswitch-switch {
+    right: 0px; 
+}   
+
+.feedback_onoffswitch {
+    position: relative; width: 80px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.feedback_onoffswitch-checkbox {
+    display: none;
+}
+.feedback_onoffswitch-label {
+  display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    position: relative;
+    top: -17px;
+    left: -10px;
+}
+.feedback_onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.feedback_onoffswitch-inner:before, .feedback_onoffswitch-inner:after {
+  display: block;
+    float: left;
+    width: 50%;
+    height: 26px;
+    padding: 0;
+    line-height: 27px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.feedback_onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.feedback_onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 14px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.feedback_onoffswitch-switch {
+    display: block; width: 11px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 48px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.feedback_onoffswitch-checkbox:checked + .feedback_onoffswitch-label .feedback_onoffswitch-inner {
+    margin-left: 0;
+}
+.feedback_onoffswitch-checkbox:checked + .feedback_onoffswitch-label .feedback_onoffswitch-switch {
+    right: 0px; 
+}   
+
+.information_title{
+    color:#999;
+    font-size:12px;
+}
+section.cf_form tr {
+   float: left;
+}
+section.cf_form th{
+    float: right;
+}
+
+.info_metabox_design{
+   
+    float: right;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1%;
+    max-width: 280px;
+    position: absolute; 
+    right: 1%;
+}
+.cf_form tr {
+    float: left;
+    width: 92% !important;
+}
+.cf_form .info_metabox_design{
+    top:24.5% !important;
+}
+
+@media screen and (max-width: 800px) {
+  .info_metabox_design {
+    float: left;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1%;
+    display:block;
+    position:relative; 
+    margin-bottom: 5%;
+    max-width: 100%;
+  }
+}
+img#icon_correct, img#icon_incorrect{
+    top: 4px;
+    vertical-align: middle;
+    padding-left: 8px;
+}
+.inside .interakt-tab a {padding: 9px 14px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.interakt_wrap .postbox .hndle {
+     border-bottom:none !important;
+}
+.interakt_wrap .form-table a{
+    text-decoration: none;
+    color: #555;
+}
+.interakt_wrap #sections h2{
+    font-weight:600 !important;
+    font-size: 16px;
+    /*border-bottom: 1px solid #CCCCCC;*/
+}
+.interakt_wrap #sections {
+    border: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+.interakt_wrap #normal-sortables .postbox .submit{
+    float: left;
+}
+.interakt_wrap .toggle-indicator{
+ display:none;
+}
+#interakt_app_key:after{
+    content:"hello";color: blue;
+}
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle {
+ 
+   padding: 1px 1px 7px 11px;
+   line-height: 2.4;
+}
+/* Hide wordpress thankyou msg */
+#wpfooter p {
+    display: none;
+}
+
+.interakt_wrap .form-table th{
+  /*width: 100%;*/
+  /*padding: 0px 0px 0px 0;*/
+}
+ section.tab_toggle.cf_form tr:first-child th:first-child {
+    display: none;
+}
+.postbox table.form-table tr:nth-child(1) th:first-child label:after {
+    content: "?";
+    padding: 0px 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 7px;
+   
+}
+.postbox table.form-table tr:nth-child(2) th:first-child label:after {
+    content: "?";
+    padding: 0px 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+ 
+section.setup_control table.form-table {
+   border :1px solid #ccc;
+   border-spacing: 8px;
+   border-collapse: separate;
+   background-color:  #f7f7f7;
+
+}
+
+section.setup_key table.form-table{
+    border :1px solid #ccc;
+   border-spacing: 8px;
+   border-collapse: separate;
+   background-color:  #f7f7f7;
+}
+
+.notice{
+   font-size:14px;
+}
+#app_id_mark{
+    background-color: #fff;
+    padding: 0px 5px;
+    border: 3px solid #fff;
+    border-left-color: #0085ba;
+    border-radius: 5%;
+    margin-left: 7px;
+    position: absolute;
+    left :4%;
+    top :35%;
+}
+#api_key_mark{
+    background-color: #fff;
+    padding: 0px 5px;
+    border: 3px solid #fff;
+    border-left-color: #0085ba;
+    border-radius: 5%;
+    margin-left: 7px;
+    position: absolute;
+    left :4%;
+    top :47.5%;
+}
+.interakt_wrap .postbox{
+   background-color:  #f1f1f1;
+   border:none;
+}
+ 
+ #save-meta-box,#info-meta-box,#customize-info-meta-box{
+    background-color: #fff !important;
+ }
+#chat_subtitle{
+    position: absolute;
+    top: 23%;
+    left: 47%;
+}
+#feed_subtitle{
+    position: absolute;
+    top: 35.5%;
+    left: 47%;
+}
+#notf_subtitle{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+#faq_subtitle{
+    position: absolute;
+    top: 71%;
+    left: 55%;
+}
+.modalbody td.form_option {
+    text-align: center;
+}
+
+.interakt_wrap .postbox table.form-table {
+    margin-bottom: 14px;
+}
+ #editor-button .form-table td {
+    padding: 16px 0px !important;
+ }
+#notice_msg{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 13px;
+ }

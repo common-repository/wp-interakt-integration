@@ -1,0 +1,85 @@
+input.interakt-subscribe-field{
+  	display: block;
+  	line-height: 34px;
+  	height: 34px;
+  	width: 100%;
+  	padding: 0 10px;
+  }	 
+.interakt-subscribe-button{
+	background-color: #09c;
+	color #fff ;
+	margin-top: 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 34px;
+	padding: 0 15px;
+    opacity: 0.9;
+    text-align: center;
+	border-radius:4px;
+	letter-spacing:1px;
+}
+.interakt-subscribe-button:hover{
+	opacity: 0.8;
+    color #fff;
+}
+.interakt-subscribe-button:active{
+	opacity: 1;
+    color #fff;
+}
+.interakt-subscribe-text{
+	line-height: 1.4;
+}
+.interakt-subscribe-title{
+	color: #fff;
+}
+.interakt-subscribe-form.inline{
+	white-space: nowrap;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-field,
+.interakt-subscribe-form.inline .interakt-subscribe-button{
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-field{
+	width: 73%;
+	margin-left: -4px;
+}
+.interakt-subscribe-form.inline .interakt-subscribe-button{
+	width: 26%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 0;
+    overflow-text: ellipsis;
+    text-align: center;
+    padding: 0px;border-radius:4px;    letter-spacing: 0.02em;
+}
+.interakt-subscribe-form input[type="email"]{
+	color:#000;
+}
+input#interakt-subscribe-name,input#interakt-subscribe-email,input#interakt-subscribe-telephone{margin-bottom:10px}
+.alert{border:1px solid red !important}
+
+/**** 
+Contact Form Submit Button
+***/
+a#cf-submitted {
+    box-shadow: none;
+    border: 1px solid;
+    padding: 4px 20px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-size: 18px;
+
+}
+/***
+Feedback and Chat buttons
+**/
+
+.interaktfeedbackclass{
+   cursor: pointer;
+}
+.interaktchatclass{
+   cursor: pointer;
+}
